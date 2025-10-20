@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 94</p><p>生成时间: 2025-10-20 09:10:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国</td>
+                <td class="count">3</td>
+                <td class="percentage">3.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=F1%E7%BE%8E%E5%9B%BD%E7%AB%99%E7%BB%B4%E6%96%AF%E5%A1%94%E6%BD%98PTW" target="_blank" class="news-link">F1美国站维斯塔潘PTW</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7563079231001857574/" target="_blank" class="news-link">美国为什么建不起稀土产业</a> [11] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8F%B0%E5%90%8D%E5%98%B4%EF%BC%9A%E8%AE%A9%E7%BE%8E%E5%9B%BD%E7%BB%A7%E7%BB%AD%E5%81%9C%E7%95%99%E5%9C%A820%E4%B8%96%E7%BA%AA%E5%90%A7" target="_blank" class="news-link">台名嘴：让美国继续停留在20世纪吧</a> [15] <font color='grey'>- 09时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">2.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2173698" target="_blank" class="news-link">AI过去一年给美国家庭创造了多少财富？小摩：5万亿美元！</a> [13] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BDAI%E7%9A%84%E6%9C%AA%E6%9D%A5%E4%B8%BA%E4%BD%95%E7%B3%BB%E4%BA%8E%E6%96%B0%E7%96%86" target="_blank" class="news-link">中国AI的未来为何系于新疆</a> [29] <font color='grey'>- 09时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">1</td>
+                <td class="percentage">1.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1962703846389293137" target="_blank" class="news-link">iphone17 播放《孤勇者》闪退什么原因？</a> [15] <font color='grey'>- 09时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">股市</td>
+                <td class="count">1</td>
+                <td class="percentage">1.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2173633" target="_blank" class="news-link">瑞银上调全球股市评级 尤其看好中国科技股</a> [12] <font color='grey'>- 09时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">手机</td>
+                <td class="count">1</td>
+                <td class="percentage">1.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8na4nDOcG0W" target="_blank" class="news-link">尾号“8888888”手机号拍出127万元，工作人员：拍完不要罚5万</a> [12] <font color='grey'>- 09时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">芯片 光刻机</td>
+                <td class="count">1</td>
+                <td class="percentage">1.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2173889" target="_blank" class="news-link">【早报】中美同意尽快举行新一轮经贸磋商；芯片领域现200亿大手笔投资</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">月球 登月 火星 宇宙 飞船</td>
+                <td class="count">1</td>
+                <td class="percentage">1.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7NASA%E6%96%B0%E7%99%BB%E6%9C%88%E4%BB%BB%E5%8A%A1" target="_blank" class="news-link">如何评价NASA新登月任务</a> [8] <font color='grey'>- 09时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
