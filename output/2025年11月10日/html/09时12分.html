@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 86</p><p>生成时间: 2025-11-10 09:12:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">2.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2195198" target="_blank" class="news-link">AI引爆“电荒” 韩国电池三巨头转向储能 在美总产能计划翻倍</a> [10] <font color='grey'>- 09时12分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2195107" target="_blank" class="news-link">康养机器人、跌倒监测相机……当养老遇见AI ，如何撬动“老有所AI”的万亿级市场？</a> [11] <font color='grey'>- 09时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">京东 刘强东</td>
+                <td class="count">1</td>
+                <td class="percentage">1.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7570875029550796351/" target="_blank" class="news-link">三方负责人详解“京东汽车”五大疑问</a> [30] <font color='grey'>- 09时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">小米 雷军 xiaomi YU7</td>
+                <td class="count">1</td>
+                <td class="percentage">1.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7570272606857625642/" target="_blank" class="news-link">小米SU7改款涨价近1万</a> [8] <font color='grey'>- 09时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">1</td>
+                <td class="percentage">1.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E8%8B%B9%E6%9E%9C%E7%85%AE%E6%B0%B4%E6%94%B9%E5%96%84%E6%B0%94%E8%89%B2%E5%85%BB%E6%8A%A4%E7%9A%AE%E8%82%A4%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26pos%3D22%26flag%3D0%26lcate%3D5001%26filter_type%3Drealtimehot%26stream_entry_id%3D31%26c_type%3D31%26band_rank%3D21%26q%3D%2523%25E8%258B%25B9%25E6%259E%259C%25E7%2585%25AE%25E6%25B0%25B4%25E6%2594%25B9%25E5%2596%2584%25E6%25B0%2594%25E8%2589%25B2%25E5%2585%25BB%25E6%258A%25A4%25E7%259A%25AE%25E8%2582%25A4%2523%26cate%3D5001%26dgr%3D0%26realpos%3D21%26display_time%3D1762737070%26pre_seqid%3D176273707094302443512125&amp;launchid=10000360-page_H5" target="_blank" class="news-link">苹果煮水改善气色养护皮肤</a> [21] <font color='grey'>- 09时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">1.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7570700195769417782/" target="_blank" class="news-link">起猛了人形机器人敲上青铜器了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">美国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%8D%95%E6%97%A5%E8%88%AA%E7%8F%AD%E5%8F%96%E6%B6%88%E9%87%8F%E8%B6%852000%E6%AC%A1" target="_blank" class="news-link">美国单日航班取消量超2000次</a> [18] <font color='grey'>- 09时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">芯片 光刻机</td>
+                <td class="count">1</td>
+                <td class="percentage">1.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2195307" target="_blank" class="news-link">预计四季度存储价格有望维持上涨趋势 存储芯片概念股涨停 本周机构密集调研相关上市公司</a> [12] <font color='grey'>- 09时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
