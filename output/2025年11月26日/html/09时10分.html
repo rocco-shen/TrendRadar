@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 81</p><p>生成时间: 2025-11-26 09:10:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">4</td>
+                <td class="percentage">4.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3760086" target="_blank" class="news-link">宽松预期与俄乌协议利好，道指8月来最大单日涨幅，“谷歌涨、英伟达跌”分化AI交易，10年期美债跌破4%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%8B%B1%E4%BC%9F%E8%BE%BE%E7%B4%A7%E6%80%A5%E5%8F%91%E5%A3%B0%23&amp;t=31&amp;band_rank=9&amp;Refer=top" target="_blank" class="news-link">英伟达紧急发声</a> [9] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3760117" target="_blank" class="news-link">英伟达大跌后罕见安抚市场：我司GPU比谷歌AI芯片领先一代</a> [10] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E7%9F%A5%E5%90%8D%E7%A9%BA%E5%A4%B4%E2%80%9C%E6%AD%BB%E5%92%AC%E2%80%9D%E8%8B%B1%E4%BC%9F%E8%BE%BE" target="_blank" class="news-link">美国知名空头“死咬”英伟达</a> [18] <font color='grey'>- 09时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国</td>
+                <td class="count">4</td>
+                <td class="percentage">4.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%AB%98%E5%B8%82%E8%B6%8A%E4%BD%8D+%E7%BE%8E%E5%9B%BD%E8%B6%8A%E9%A1%B6" target="_blank" class="news-link">高市越位 美国越顶</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2210885" target="_blank" class="news-link">美国财长预告：特朗普“极有可能”在1个月内提名新美联储主席</a> [7] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32042516" target="_blank" class="news-link">乌克兰原则同意美国提出的和平协议</a> [8] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7576656910720437823/" target="_blank" class="news-link">美国货轮时隔半年向中国运大豆</a> [13] <font color='grey'>- 09时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">字节 豆包 张一鸣</td>
+                <td class="count">1</td>
+                <td class="percentage">1.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1975840016744858598" target="_blank" class="news-link">网友发现新版初中人教版生物课本出现豆包生成的图片，是真的吗？你能否接受教材用 AI 生成的图片？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
