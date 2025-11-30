@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 99</p><p>生成时间: 2025-11-30 11:10:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">2.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3760389" target="_blank" class="news-link">美国“黑五”销售额同比增4.1%，AI流量暴增600%，通胀和“K型经济”依旧是主题</a> [8] <font color='grey'>- 11时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3760382" target="_blank" class="news-link">快手AI化提速：用户生态+广告变现双提升，可灵增长潜力巨大</a> [9] <font color='grey'>- 11时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国</td>
+                <td class="count">2</td>
+                <td class="percentage">2.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E7%BE%8E%E5%9B%BD%20%E5%A7%94%E5%86%85%E7%91%9E%E6%8B%89&amp;t=31&amp;band_rank=6&amp;Refer=top" target="_blank" class="news-link">美国 委内瑞拉</a> [6] <font color='grey'>- 11时10分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8ohEbYTMLuJ" target="_blank" class="news-link">种种迹象表明，美国真要对委内瑞拉动手了</a> [9] <font color='grey'>- 11时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">政策</td>
+                <td class="count">1</td>
+                <td class="percentage">1.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347599&amp;amp;topic_name=%E7%A1%AC%E5%88%9A%E5%B0%81%E5%AD%98%E6%94%BF%E7%AD%96%21%E7%A6%81%E6%AF%92%E5%AE%98%E5%AA%92%E6%80%92%E9%94%80%E8%B4%A6%E5%8F%B7" target="_blank" class="news-link">硬刚封存政策!禁毒官媒怒销账号</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">手机</td>
+                <td class="count">1</td>
+                <td class="percentage">1.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%80%80%E7%96%91%E8%A2%AB%E5%81%B7%E6%8B%8D+%E5%8F%AF%E4%BB%A5%E8%A6%81%E6%B1%82%E6%9F%A5%E7%9C%8B%E5%AF%B9%E6%96%B9%E6%89%8B%E6%9C%BA%E5%90%97" target="_blank" class="news-link">怀疑被偷拍 可以要求查看对方手机吗</a> [18] <font color='grey'>- 11时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
